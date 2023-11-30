@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo sobre Breaking Bad</title>
+    <link rel="stylesheet" href="../styles/styles.sass" />
+    <script type="module" src="../scripts/presentacion.js"></script>
+</head>
+<body>
+    <header>
+        <include src="./src/pages/components/logo.html"></include>
+        <div class="intro">
+            <h1>Presentación de nuestra web</h1>
+            <p class="contenido">A continuación tienes una breve presentación de esta web, que trata sobre la serie Breaking Bad, sin duda, ¡la mejor serie de todos los tiempos!</p>
+        </div>
+        <include src="./src/pages/components/menu.html"></include>
+    </header>
+    <main class="presentacion">
+        <div class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <picture>
+                            <!-- Para pantallas más grandes de 1000px -->
+                            <source media="(min-width: 1000px)" srcset="../../img_compressed/slider/1.webp">
+                            
+                            <!-- Para pantallas entre 640px y 1000px -->
+                            <source media="(min-width: 640px)" srcset="../../img_compressed/slider/1-tablet.webp">
+                            
+                            <!-- Para pantallas más pequeñas de 640px -->
+                            <img class="big-banner" src="../../img_compressed/slider/1-movil.webp" alt="Imagen promocional introductoria de una de las temporadas de Breaking Bad">
+                        </picture>
+                    </li>
+                    <li class="splide__slide">
+                        <picture>
+                            <!-- Para pantallas más grandes de 1000px -->
+                            <source media="(min-width: 1000px)" srcset="../../img_compressed/slider/2.webp">
+                            
+                            <!-- Para pantallas entre 640px y 1000px -->
+                            <source media="(min-width: 640px)" srcset="../../img_compressed/slider/2-tablet.webp">
+                            
+                            <!-- Para pantallas más pequeñas de 640px -->
+                            <img class="big-banner" src="../../img_compressed/slider/2-movil.webp" alt="Imagen promocional introductoria de una de las temporadas de Breaking Bad">
+                        </picture>
+                    </li>
+                    <li class="splide__slide">
+                        <picture>
+                            <!-- Para pantallas más grandes de 1000px -->
+                            <source media="(min-width: 1000px)" srcset="../../img_compressed/slider/3.webp">
+                            
+                            <!-- Para pantallas entre 640px y 1000px -->
+                            <source media="(min-width: 640px)" srcset="../../img_compressed/slider/3-tablet.webp">
+                            
+                            <!-- Para pantallas más pequeñas de 640px -->
+                            <img class="big-banner" src="../../img_compressed/slider/3-movil.webp" alt="Imagen promocional introductoria de una de las temporadas de Breaking Bad">
+                        </picture>
+                    </li>
+                    <li class="splide__slide">
+                        <picture>
+                            <!-- Para pantallas más grandes de 1000px -->
+                            <source media="(min-width: 1000px)" srcset="../../img_compressed/slider/4.webp">
+                            
+                            <!-- Para pantallas entre 640px y 1000px -->
+                            <source media="(min-width: 640px)" srcset="../../img_compressed/slider/4-tablet.webp">
+                            
+                            <!-- Para pantallas más pequeñas de 640px -->
+                            <img class="big-banner" src="../../img_compressed/slider/4-movil.webp" alt="Imagen promocional introductoria de una de las temporadas de Breaking Bad">
+                        </picture>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="contenido">
+            <div class="texto">
+                <h2>Bienvenido a nuestra Web de Breaking Bad</h2>
+                <p>En este rincón virtual, te invitamos a explorar y sumergirte en el fascinante mundo de "Breaking Bad," una serie de televisión que ha dejado una huella indeleble en la historia del entretenimiento. Nuestra web está diseñada para ser un espacio informativo y apasionante, donde tanto los fanáticos de la serie como los recién llegados pueden encontrar una amplia gama de recursos, desde análisis profundos de los personajes hasta enlaces a material adicional y fuentes relacionadas.</p>
+                <h2>Contenido de la Web</h2>
+                <p>A continuación os mostramos un resumen de lo que os espera en este apasionante rincón:</p>
+                <h3>Página de Inicio</h3>
+                <p>Nuestra página de inicio actúa como el portal a este emocionante viaje a través del universo de "Breaking Bad." Aquí encontrarás una vista previa de lo que puedes esperar en el sitio, junto con el menú con enlaces que te llevarán a los distintos apartados de nuestra web.</p>
+                <h3>Página de Personajes</h3>
+                <p>¿Quiénes son Walter White, Jesse Pinkman, y los innumerables personajes que pueblan este mundo turbulento? Nuestra página de Personajes está dedicada a explorar en detalle a cada uno de los protagonistas, sus arcos de desarrollo y las motivaciones detrás de sus acciones.</p>
+                <h3>Página de Enlaces</h3>
+                <p>En la página de Enlaces, hemos recopilado recursos útiles y fuentes de referencia para aquellos que deseen profundizar en el mundo de "Breaking Bad." Aquí encontrarás enlaces a entrevistas con el elenco, análisis críticos, y otros materiales que te ayudarán a explorar la serie en mayor profundidad.</p>
+            </div>
+            <div class="imagen">
+                <figure>
+                    <picture>
+                        <!-- Para pantallas más grandes de 1000px -->
+                        <source media="(min-width: 1000px)" srcset="../../img_compressed/heisenberg.webp">
+                        
+                        <!-- Para pantallas entre 640px y 1000px -->
+                        <source media="(min-width: 640px)" srcset="../../img_compressed/heisenberg-tablet.webp">
+                        
+                        <!-- Para pantallas más pequeñas de 640px -->
+                        <img src="../../img_compressed/heisenberg-movil.webp" alt="Retrato de Heisenberg que aparece en uno de los episodios de la serie Breaking Bad">
+                    </picture>
+                    <figcaption>Heisenberg</figcaption>
+                </figure>
+            </div>
+            <div class="texto ancho">
+                <h2>Sobre Breaking Bad</h2>
+                <figure>
+                    <iframe src="https://www.youtube.com/embed/HhesaQXLuRY?si=h-6aAu-m-xAzpD21" title="Reproductor de youtube con el trailer de la primera temporada de Breaking Bad" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <figcaption>Trailer de la primera temporada de Breaking Bad</figcaption>
+                </figure>
+                <p>Breaking Bad es una obra maestra de la televisión que narra la transformación de Walter White, un apacible profesor de química, en un temido magnate del narcotráfico. La serie, creada por Vince Gilligan, teje una trama magistral de moralidad, crimen y consecuencias. A lo largo de sus cinco temporadas, los espectadores son testigos de la evolución de Walter White, interpretado brillantemente por Bryan Cranston, desde un hombre común hasta un imperio criminal.</p>
+                <p>La serie explora temas como la familia, la avaricia, la lealtad y las decisiones morales, todo dentro del contexto del tráfico de metanfetamina en el suroeste de Estados Unidos. Con una narrativa intensa, personajes complejos y una cinematografía impresionante, Breaking Bad se ha ganado un lugar en la historia de la televisión como una de las mejores series jamás realizadas.</p>
+                <p>Es conocida por su meticulosa atención a los detalles y su narrativa llena de giros sorprendentes, sigue la transformación de Walter White de un hombre desesperado con un diagnóstico de cáncer terminal en un temido narcotraficante conocido como "Heisenberg". A medida que Walter se adentra más en el mundo del crimen, su asociación con Jesse Pinkman, interpretado por Aaron Paul, se convierte en el núcleo emocional de la serie. La relación entre ambos personajes, a menudo complicada y marcada por lealtades cambiantes, es una de las dinámicas más cautivadoras de la misma.</p>
+                <figure>
+                    <picture>
+                        <!-- Para pantallas más grandes de 1000px -->
+                        <source media="(min-width: 1000px)" srcset="../../img_compressed/heisenberg-jesse.webp">
+                        
+                        <!-- Para pantallas entre 640px y 1000px -->
+                        <source media="(min-width: 640px)" srcset="../../img_compressed/heisenberg-jesse-tablet.webp">
+                        
+                        <!-- Para pantallas más pequeñas de 640px -->
+                        <img src="../../img_compressed/heisenberg-jesse-movil.webp" alt="Walter White y Jesse Pinkman en una foto en la que aparecen en primer plano">
+                    </picture>
+                    <figcaption>Walter White y Jesse Pinkman en una de las escenas de la serie</figcaption>
+                </figure>
+                <p>Esta serie también se destaca por su enfoque en la moralidad y las consecuencias de las acciones. A medida que Walter White comienza a cocinar y vender metanfetamina, los límites entre el bien y el mal se desdibujan. La serie plantea preguntas éticas profundas sobre hasta dónde estaríamos dispuestos a llegar en situaciones extremas y cómo nuestras decisiones pueden afectar a quienes nos rodean. La complejidad moral de la serie la ha convertido en una obra de discusión y análisis constante entre críticos y académicos.</p>
+                <p>La influencia de Breaking Bad en la cultura popular es innegable. La serie ha inspirado numerosas referencias y homenajes en otras películas y programas de televisión. Su impacto en la forma en que se cuentan historias en la televisión actual ha sido profundo, impulsando una nueva ola de series que exploran temas similares de antihéroes y consecuencias morales. Además, el legado de la serie continúa a través de su spin-off "Better Call Saul", que se centra en el carismático abogado Saul Goodman, y sigue acumulando seguidores apasionados en todo el mundo.</p>
+                <figure>
+                    <picture>
+                        <!-- Para pantallas más grandes de 1000px -->
+                        <source media="(min-width: 1000px)" srcset="../../img_compressed/heisenberg-saul.webp">
+                        
+                        <!-- Para pantallas entre 640px y 1000px -->
+                        <source media="(min-width: 640px)" srcset="../../img_compressed/heisenberg-saul-tablet.webp">
+                        
+                        <!-- Para pantallas más pequeñas de 640px -->
+                        <img src="../../img_compressed/heisenberg-saul-movil.webp" alt="Walter White y Saul discutiendo en una toma">
+                    </picture>
+                    <figcaption>Walter White y Saul en una de las escenas de la serie</figcaption>
+                </figure>
+                <p>En resumen, Breaking Bad es una serie que trasciende la pantalla y que ha dejado una huella duradera en el mundo del entretenimiento. En nuestra web, te invitamos a profundizar en la serie, a discutir sus matices y a descubrir por qué Breaking Bad continúa siendo una obra maestra que no puedes perderte. Esperamos que disfrutes de tu visita y que encuentres en nuestra web una fuente invaluable de información y entretenimiento relacionados con esta inolvidable serie.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <include src="./src/pages/components/pie.html"></include>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

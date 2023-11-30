@@ -1,0 +1,110 @@
+.detalle > .contenido
+  padding: 40px
+  display: grid
+  grid-template-columns: 1fr 1fr
+  gap: 40px
+
+  @media (max-width: 1000px)
+    display: block
+
+  a
+    color: $verde
+  
+  > .texto
+    display: grid
+    gap: 20px
+    grid-column-start: 1
+    grid-column-end: 3
+
+    > h2
+      margin-top: 0
+      margin-bottom: 0
+
+      @media (max-width: 1000px)
+        margin-top: 20px
+
+  > .imagen
+    @media (max-width: 1000px)
+      margin-bottom: 40px
+      max-width: 800px
+      margin-left: auto
+      margin-right: auto
+      width: fit-content
+    
+    > figure
+
+      > figcaption
+        padding-top: 20px
+        text-align: center
+
+      img
+        max-width: 100%
+  
+  > .texto.ancho > p
+    margin-bottom: 20px
+
+iframe
+  width: 100%
+  max-width: 900px
+  aspect-ratio: 16 / 9
+
+.trailer
+  text-align: center
+  margin-bottom: 30px
+
+.detalle
+  .ficha
+    > .cabecera, .capitulos
+      margin-top: 30px
+      overflow: auto
+      margin-left: 20px
+
+      @media (max-width: 640px)
+        margin-left: 0px
+
+      h2
+        float: left
+        margin-top: 5px
+
+        @media (max-width: 460px)
+          display: none
+      
+      > div
+        margin-bottom: 20px
+        overflow: auto
+
+    svg
+      float: left
+      margin-right: 10px
+
+      @media (max-width: 460px)
+        float: none
+        width: 100%
+    
+.nota
+  background-image: url('../../img/cuaderno.png')
+  background-repeat: no-repeat
+  text-align: center
+  background-position: top
+  margin-top: 60px
+  margin-bottom: 60px
+  padding-top: 20px
+  padding-bottom: 100px
+
+  h2
+    margin-top: 50px
+
+    @media (max-width: 350px)
+      margin-top: 0px
+
+  @media (max-width: 460px)
+    background-size: 100%
+    margin-left: 20px
+    margin-right: 20px
+    padding-bottom: 60px
+
+  p
+    font-size: 140px
+
+    @media (max-width: 460px)
+      font-size: 100px

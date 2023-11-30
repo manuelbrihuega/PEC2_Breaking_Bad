@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo sobre Breaking Bad</title>
+    <link rel="stylesheet" href="../styles/styles.sass" />
+    <script type="module" src="../scripts/temporadas.js"></script>
+</head>
+<body>
+    <header>
+        <include src="./src/pages/components/logo.html"></include>
+        <div class="intro">
+            <h1>Temporadas de la serie</h1>
+            <p class="contenido">A continuación puedes ver una lista con las temporadas de la serie. Haciendo click en cada una de ellas podrás consultar su página de detalle, en la que aparece un resumen de la misma.</p>
+        </div>
+        <include src="./src/pages/components/menu.html"></include>
+    </header>
+    <main>
+        <div class="grid-images-container temporadas">
+            <div class="grid-item tall" style="background-image: url('../../img_compressed/no-enlazadas/temporadas/temporada1-tall-min.webp')"><div class="temporada"><a href="detalle-temporada.html">Temporada 1</a></div></div>
+        </div>
+    </main>
+    <footer>
+        <include src="./src/pages/components/pie.html"></include>
+    </footer>
+</body>
+</html>

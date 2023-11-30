@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo sobre Breaking Bad</title>
+    <link rel="stylesheet" href="../styles/styles.sass" />
+    <script type="module" src="../scripts/personajes.js"></script>
+</head>
+<body>
+    <header>
+        <include src="./src/pages/components/logo.html"></include>
+        <div class="intro">
+            <h1>Personajes de la serie</h1>
+            <p class="contenido">A continuación puedes ver a los personajes más significativos que aparecen en la serie. Haciendo click en cada uno de ellos podrás consultar su página de detalle, en la que aparece una descripción del mismo junto a más información.</p>
+        </div>
+        <include src="./src/pages/components/menu.html"></include>
+    </header>
+    <main>
+        <div class="grid-images-container personajes">
+            <div class="grid-item tall" style="background-image: url('../../img/no-enlazadas/personajes/walter.jpg')"><div class="personaje"><a href="detalle-personaje.html">Walter White</a></div></div>
+        </div>
+    </main>
+    <footer>
+        <include src="./src/pages/components/pie.html"></include>
+    </footer>
+</body>
+</html>
