@@ -5,7 +5,7 @@ import { cargarListado } from './app';
 // Preparamos la lista de las temporadas
 if (document.getElementsByClassName('temporadas').length !== 0) {
     // Vaciamos el contenedor
-    document.getElementsByClassName('temporadas')[0].innerText = "";
+    //document.getElementsByClassName('temporadas')[0].innerText = "";
     // Pintamos las temporadas
-    cargarListado(temporadas, 'temporada');
+    //cargarListado(temporadas, 'temporada');
 }

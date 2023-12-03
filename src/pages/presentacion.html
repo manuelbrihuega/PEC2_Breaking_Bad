@@ -100,7 +100,10 @@
                 </figure>
             </div>
             <div class="texto ancho">
-                <h2>Sobre Breaking Bad</h2>
+                <div class="cabecera">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="46" width="46" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
+                    <h2>Sobre Breaking Bad</h2>
+                </div>
                 <figure>
                     <iframe src="https://www.youtube.com/embed/HhesaQXLuRY?si=h-6aAu-m-xAzpD21" title="Reproductor de youtube con el trailer de la primera temporada de Breaking Bad" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <figcaption>Trailer de la primera temporada de Breaking Bad</figcaption>
@@ -109,16 +112,7 @@
                 <p>La serie explora temas como la familia, la avaricia, la lealtad y las decisiones morales, todo dentro del contexto del tráfico de metanfetamina en el suroeste de Estados Unidos. Con una narrativa intensa, personajes complejos y una cinematografía impresionante, Breaking Bad se ha ganado un lugar en la historia de la televisión como una de las mejores series jamás realizadas.</p>
                 <p>Es conocida por su meticulosa atención a los detalles y su narrativa llena de giros sorprendentes, sigue la transformación de Walter White de un hombre desesperado con un diagnóstico de cáncer terminal en un temido narcotraficante conocido como "Heisenberg". A medida que Walter se adentra más en el mundo del crimen, su asociación con Jesse Pinkman, interpretado por Aaron Paul, se convierte en el núcleo emocional de la serie. La relación entre ambos personajes, a menudo complicada y marcada por lealtades cambiantes, es una de las dinámicas más cautivadoras de la misma.</p>
                 <figure>
-                    <picture>
-                        <!-- Para pantallas más grandes de 1000px -->
-                        <source media="(min-width: 1000px)" srcset="../../img_compressed/heisenberg-jesse.webp">
-                        
-                        <!-- Para pantallas entre 640px y 1000px -->
-                        <source media="(min-width: 640px)" srcset="../../img_compressed/heisenberg-jesse-tablet.webp">
-                        
-                        <!-- Para pantallas más pequeñas de 640px -->
-                        <img src="../../img_compressed/heisenberg-jesse-movil.webp" alt="Walter White y Jesse Pinkman en una foto en la que aparecen en primer plano">
-                    </picture>
+                    <img src="../../img_compressed/heisenberg-jesse.webp" alt="Walter White y Jesse Pinkman en una foto en la que aparecen en primer plano" srcset="../../img_compressed/heisenberg-jesse.webp, ../../img_compressed/heisenberg-jesse-2x.webp 2x">
                     <figcaption>Walter White y Jesse Pinkman en una de las escenas de la serie</figcaption>
                 </figure>
                 <p>Esta serie también se destaca por su enfoque en la moralidad y las consecuencias de las acciones. A medida que Walter White comienza a cocinar y vender metanfetamina, los límites entre el bien y el mal se desdibujan. La serie plantea preguntas éticas profundas sobre hasta dónde estaríamos dispuestos a llegar en situaciones extremas y cómo nuestras decisiones pueden afectar a quienes nos rodean. La complejidad moral de la serie la ha convertido en una obra de discusión y análisis constante entre críticos y académicos.</p>
@@ -140,6 +134,7 @@
             </div>
         </div>
     </main>
+    <include src="./src/pages/components/waltercito.html"></include>
     <footer>
         <include src="./src/pages/components/pie.html"></include>
     </footer>

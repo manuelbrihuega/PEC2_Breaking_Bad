@@ -1,3 +1,5 @@
+html
+  overflow-x: hidden
 .presentacion > .contenido
   padding: 40px
   display: grid
@@ -64,3 +66,113 @@
 
 .splide__pagination
   padding-left: 0px
+
+.presentacion .cabecera
+  overflow: hidden
+  @media (max-width: 460px)
+    text-align: center
+  h2
+    float: left
+    margin-top: 10px
+    margin-left: 20px
+    @media (max-width: 460px)
+      float: none
+      margin-left: 0px
+  svg
+    float: left
+    animation: saltito 1.5s linear 1s infinite
+    @media (max-width: 460px)
+      float: none
+
+.waltercito
+  max-width: 170px
+  animation: slideInslideOut 10s linear 1s infinite normal
+  position: relative
+  z-index: 1
+  margin-top: calc(-100%)
+
+@keyframes slideInslideOut
+  0%
+    opacity: 1
+    transform: translateY(200px)
+  
+  8%
+    opacity: 1
+    transform: translateY(0)
+  
+  16%
+    opacity: 1
+    transform: translateY(200px)
+  
+  24%
+    opacity: 1
+    transform: translate(200px,200px)
+  
+  32%
+    opacity: 1
+    transform: translate(200px, 0px)
+
+  50%
+    opacity: 1
+    transform: translate(200px, 200px)
+  
+  58%
+    opacity: 1
+    transform: translate(1000px, 200px)
+  
+  66%
+    opacity: 1
+    transform: translate(1000px, 0px)
+  
+  72%
+    opacity: 1
+    transform: translate(1000px, 200px)
+  
+  80%
+    opacity: 1
+    transform: translate(500px, 200px)
+  
+  88%
+    opacity: 1
+    transform: translate(500px, 0px)
+  
+  100%
+    opacity: 1
+    transform: translate(500px, 200px)
+
+@keyframes saltito
+  0%
+    animation-timing-function: ease-in
+    opacity: 1
+    transform: translateY(45px)
+  
+  24%
+    opacity: 1
+  
+  40%
+    animation-timing-function: ease-in
+    transform: translateY(24px)
+    
+  65%
+    animation-timing-function: ease-in
+    transform: translateY(12px)
+  
+  82%
+    animation-timing-function: ease-in
+    transform: translateY(6px)
+  
+  93%
+    animation-timing-function: ease-in
+    transform: translateY(4px)
+  
+  25%,
+	55%,
+	75%,
+	87%
+    animation-timing-function: ease-out
+    transform: translateY(0px)
+    
+  100%
+    animation-timing-function: ease-out
+    opacity: 1
+    transform: translateY(0px)
