@@ -8,8 +8,8 @@
     "parcel:dev": "parcel",
     "parcel:build": "parcel build",
     "clean": "rimraf dist .parcel-cache",
-    "start": "npm-run-all clean parcel:dev",
-    "build": "npm-run-all clean parcel:build",
+    "start": "npm-run-all clean optimizer-images parcel:dev",
+    "build": "npm-run-all clean optimizer-images parcel:build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "optimizer-images": "node optimizer.mjs"
   },
